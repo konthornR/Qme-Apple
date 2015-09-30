@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eSW-8V-UXV"/>
+                        <viewControllerLayoutGuide type="bottom" id="hHK-U3-ZHm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Queuing with a better queue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YF5-nA-10z">
+                                <rect key="frame" x="0.0" y="20" width="320" height="30.5"/>
+                                <color key="backgroundColor" red="0.93118686868686873" green="0.068301025080230171" blue="0.016471512620455962" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Touch to Scan QR code at the store " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiI-5t-y2e">
+                                <rect key="frame" x="0.0" y="278" width="321" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C88-kZ-99m">
+                                <rect key="frame" x="10" y="58" width="300" height="219"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tNQ-ZP-pkf">
+                                        <rect key="frame" x="0.0" y="-32" width="300" height="0.0"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0u-XZ-5ns">
+                                        <rect key="frame" x="54" y="20" width="193" height="156.5"/>
+                                        <state key="normal" backgroundImage="qmeBim.png"/>
+                                        <connections>
+                                            <action selector="QrButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zLd-zc-DLv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="shabupic.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Guh-dT-V4a">
+                                <rect key="frame" x="26" y="411" width="240" height="105"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="BiQ-ri-fXV"/>
+                                    <constraint firstAttribute="width" constant="240" id="KFI-M8-QXW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tr-z1-lKm">
+                                <rect key="frame" x="0.0" y="322" width="320" height="32"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.89411764705882357" green="0.15294117647058825" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="waiting.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Kc-7I-Z9f">
+                                <rect key="frame" x="74" y="312" width="51" height="51"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="YF5-nA-10z" firstAttribute="top" secondItem="eSW-8V-UXV" secondAttribute="bottom" id="3Cz-wQ-Rbd"/>
+                            <constraint firstItem="0tr-z1-lKm" firstAttribute="top" secondItem="LiI-5t-y2e" secondAttribute="bottom" constant="8" id="5PS-rU-Upw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="C88-kZ-99m" secondAttribute="trailing" constant="-5" id="6ja-ca-WO0"/>
+                            <constraint firstAttribute="centerX" secondItem="Guh-dT-V4a" secondAttribute="centerX" id="Ka6-Gv-ery"/>
+                            <constraint firstItem="C88-kZ-99m" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-5" id="Krs-yf-Mt3"/>
+                            <constraint firstItem="C88-kZ-99m" firstAttribute="top" secondItem="YF5-nA-10z" secondAttribute="bottom" constant="4.5" id="LK1-gp-VQn"/>
+                            <constraint firstItem="hHK-U3-ZHm" firstAttribute="top" secondItem="Guh-dT-V4a" secondAttribute="bottom" constant="8" id="QKl-bv-v2O"/>
+                            <constraint firstItem="LiI-5t-y2e" firstAttribute="top" secondItem="C88-kZ-99m" secondAttribute="bottom" constant="1" id="W0L-93-orV"/>
+                            <constraint firstItem="LiI-5t-y2e" firstAttribute="top" secondItem="C88-kZ-99m" secondAttribute="bottom" constant="15" id="Xz2-fc-c4s"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YF5-nA-10z" secondAttribute="trailing" constant="-16" id="mLb-T2-YtT"/>
+                            <constraint firstItem="YF5-nA-10z" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="wnn-mS-aGZ"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="Advertise" destination="Guh-dT-V4a" id="9mb-bt-ct4"/>
+                        <outlet property="QRimgButt" destination="tNQ-ZP-pkf" id="NSp-4w-kge"/>
+                        <outlet property="QRimgHide" destination="s0u-XZ-5ns" id="NmY-Er-O7P"/>
+                        <outlet property="QrLabel" destination="LiI-5t-y2e" id="Ahz-fv-prU"/>
+                        <outlet property="QrLabel2" destination="0tr-z1-lKm" id="OpM-Ck-zeJ"/>
+                        <outlet property="viewPreview" destination="C88-kZ-99m" id="n2A-LP-mGd"/>
+                        <outlet property="waitingImg" destination="9Kc-7I-Z9f" id="HzL-Ah-kpp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88" y="20"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="qmeBim.png" width="300" height="300"/>
+        <image name="shabupic.jpg" width="700" height="467"/>
+        <image name="waiting.png" width="48" height="48"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
