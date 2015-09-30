@@ -1,2 +1,2 @@
 # Qme-Apple
-Qme App on Ios
+Qme on Apple App
